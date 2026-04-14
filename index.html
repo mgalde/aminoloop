@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Amino Loop transforms the nutrient-rich effluent from pet aquamation into a premium liquid fertilizer — closing the cycle between life, the land, and legacy.">
+  <title>Amino Loop — Closing the Nutrient Cycle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo">
+        <span class="nav__logo-text">amino loop</span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="#process" class="nav__link">The Process</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta">Get in Touch</a></li>
+      </ul>
+      <button class="nav__mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile-menu" id="mobileMenu">
+      <a href="#process" class="nav__mobile-link">The Process</a>
+      <a href="#about" class="nav__mobile-link">About</a>
+      <a href="#contact" class="nav__mobile-link">Get in Touch</a>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO
+  ============================================================ -->
+  <section class="hero" id="hero">
+    <div class="hero__bg"></div>
+
+    <!-- Decorative loop SVG -->
+    <svg class="hero__deco" viewBox="0 0 520 520" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <circle cx="260" cy="260" r="240" stroke="rgba(212,168,83,0.12)" stroke-width="1"/>
+      <circle cx="260" cy="260" r="170" stroke="rgba(212,168,83,0.08)" stroke-width="1"/>
+      <circle cx="260" cy="260" r="100" stroke="rgba(212,168,83,0.06)" stroke-width="1"/>
+      <path d="M260 20 A240 240 0 1 1 60 380" stroke="rgba(212,168,83,0.22)" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="8 12"/>
+      <path d="M55 368 L60 380 L72 376" stroke="rgba(212,168,83,0.22)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+
+    <div class="hero__content">
+      <p class="hero__eyebrow">Amino Loop &amp; Aqua Crossings — Tucson, Arizona</p>
+      <h1 class="hero__headline">
+        Where Life<br>
+        <em>Returns to Life.</em>
+      </h1>
+      <p class="hero__body">
+        Amino Loop transforms the nutrient-rich effluent from pet aquamation into a premium liquid fertilizer — closing the cycle between life, the land, and legacy.
+      </p>
+      <div class="hero__ctas">
+        <a href="#contact" class="btn btn--primary">Partner With Us</a>
+        <a href="#process" class="btn btn--outline">Learn the Process</a>
+      </div>
+    </div>
+
+    <div class="hero__scroll-indicator" aria-hidden="true">
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       STATS BAR
+  ============================================================ -->
+  <section class="stats" aria-label="Key figures">
+    <div class="stats__inner">
+      <div class="stats__item">
+        <span class="stats__number">100%</span>
+        <span class="stats__label">Natural &amp; Organic</span>
+      </div>
+      <div class="stats__divider" aria-hidden="true"></div>
+      <div class="stats__item">
+        <span class="stats__number">0</span>
+        <span class="stats__label">Synthetic Additives</span>
+      </div>
+      <div class="stats__divider" aria-hidden="true"></div>
+      <div class="stats__item">
+        <span class="stats__number">20+</span>
+        <span class="stats__label">Amino Acid Compounds</span>
+      </div>
+      <div class="stats__divider" aria-hidden="true"></div>
+      <div class="stats__item">
+        <span class="stats__number">Tucson</span>
+        <span class="stats__label">Origin &amp; Operations</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PROCESS / INFORMATION
+  ============================================================ -->
+  <section class="process" id="process">
+    <div class="container">
+
+      <div class="section-header">
+        <p class="section-eyebrow">The Process</p>
+        <h2 class="section-title">Closing the Nutrient Loop</h2>
+        <p class="section-subtitle">
+          Aquamation — also known as alkaline hydrolysis — is a water-based cremation process that uses warm water and an alkali solution to gently return a body to its natural elements. Unlike flame cremation, it preserves the rich organic compounds that once formed the foundation of life. Those compounds are the foundation of Amino Loop.
+        </p>
+      </div>
+
+      <div class="process__steps">
+
+        <div class="process__step animate-up">
+          <div class="process__step-number">01</div>
+          <div class="process__step-content">
+            <h3 class="process__step-title">Aquamation</h3>
+            <p class="process__step-body">
+              In partnership with Aqua Crossings in Tucson, Arizona, pets are honored through aquamation — a gentle process using a warm solution of water and potassium hydroxide. Soft tissue dissolves over several hours while bone structure is preserved and returned to the family. The result is a sterile, nutrient-dense liquid byproduct that would otherwise be treated as wastewater.
+            </p>
+          </div>
+        </div>
+
+        <div class="process__step animate-up">
+          <div class="process__step-number">02</div>
+          <div class="process__step-content">
+            <h3 class="process__step-title">Collection &amp; Analysis</h3>
+            <p class="process__step-body">
+              The effluent — a clear to pale amber liquid — is rich in free amino acids, peptides, phosphorus, nitrogen, and trace minerals accumulated over the animal's lifetime. Each batch is carefully collected, laboratory-tested for composition and purity, and documented to ensure consistent quality and regulatory compliance before any further processing.
+            </p>
+          </div>
+        </div>
+
+        <div class="process__step animate-up">
+          <div class="process__step-number">03</div>
+          <div class="process__step-content">
+            <h3 class="process__step-title">Processing &amp; Refinement</h3>
+            <p class="process__step-body">
+              Through proprietary filtration and concentration methods, the effluent is refined into a stable, shelf-stable liquid fertilizer. pH is carefully balanced and nutrient ratios are standardized to meet agricultural specifications. The final product is a premium, naturally-derived biostimulant — ready for direct soil application or foliar use.
+            </p>
+          </div>
+        </div>
+
+        <div class="process__step animate-up">
+          <div class="process__step-number">04</div>
+          <div class="process__step-content">
+            <h3 class="process__step-title">Distribution &amp; Application</h3>
+            <p class="process__step-body">
+              Amino Loop's liquid fertilizer is available by contract to agricultural operations, nurseries, urban farms, and sustainable landscaping projects across Arizona and the greater Southwest. Contract holders receive consistent, scheduled deliveries of product — a reliable, ethical alternative to synthetic fertilizers derived from petroleum or industrial phosphate mining.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="process__callout">
+        <div class="process__callout-mark" aria-hidden="true">&ldquo;</div>
+        <blockquote class="process__callout-quote">
+          The nutrients a pet carried throughout its life — absorbed from the food it ate, the water it drank, the earth it walked on — do not disappear. Amino Loop simply honors that cycle.
+        </blockquote>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       THE OPPORTUNITY
+  ============================================================ -->
+  <section class="why">
+    <div class="container">
+
+      <div class="section-header">
+        <p class="section-eyebrow">The Opportunity</p>
+        <h2 class="section-title">Why Amino Loop?</h2>
+      </div>
+
+      <div class="why__grid">
+
+        <div class="why__card animate-up">
+          <div class="why__card-icon" aria-hidden="true">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15 3C15 3 5 9.5 5 19C5 24.52 9.48 27 15 27C20.52 27 25 24.52 25 19C25 9.5 15 3 15 3Z" stroke="currentColor" stroke-width="1.4" fill="none"/>
+              <path d="M15 27V14" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+              <path d="M15 20L9 14" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="why__card-title">Circular by Design</h3>
+          <p class="why__card-body">
+            Amino Loop's model is inherently circular. What is currently treated as wastewater becomes a valuable agricultural input — embodying the principles of a zero-waste economy and regenerative agriculture. The more aquamations occur, the more input Amino Loop has to work with.
+          </p>
+        </div>
+
+        <div class="why__card animate-up">
+          <div class="why__card-icon" aria-hidden="true">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15 4L27 10V20L15 26L3 20V10L15 4Z" stroke="currentColor" stroke-width="1.4" fill="none"/>
+              <path d="M15 4V26" stroke="currentColor" stroke-width="1.4"/>
+              <path d="M3 10L15 16L27 10" stroke="currentColor" stroke-width="1.4"/>
+            </svg>
+          </div>
+          <h3 class="why__card-title">Consistent Supply Stream</h3>
+          <p class="why__card-body">
+            With the companion animal market generating hundreds of thousands of aquamations annually — and the industry growing — the feedstock for Amino Loop's product is consistent, scalable, and growing independently of seasonal or agricultural variables.
+          </p>
+        </div>
+
+        <div class="why__card animate-up">
+          <div class="why__card-icon" aria-hidden="true">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="15" cy="15" r="12" stroke="currentColor" stroke-width="1.4"/>
+              <path d="M15 8V16L20 19" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M15 3C9 3 4 7.5 3 13.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+              <path d="M2 10 L3 13.5 L6.5 12" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="why__card-title">Proprietary Market Position</h3>
+          <p class="why__card-body">
+            Amino Loop sits at a unique intersection of the pet aftercare industry and sustainable agriculture — a combination with minimal existing competition and significant regulatory tailwinds as synthetic fertilizer scrutiny and ESG investment criteria continue to grow.
+          </p>
+        </div>
+
+        <div class="why__card animate-up">
+          <div class="why__card-icon" aria-hidden="true">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 24L10 13L17 19L22 9L26 15" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M22 9H26V13" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="why__card-title">Early-Stage Opportunity</h3>
+          <p class="why__card-body">
+            As an early-stage venture, Amino Loop offers investors the opportunity to enter at ground level. Current rounds are focused on building processing infrastructure, expanding distribution, and securing agricultural partnerships across Arizona and the Southwest.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ABOUT
+  ============================================================ -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about__inner">
+
+        <div class="about__text">
+          <p class="section-eyebrow section-eyebrow--light">About</p>
+          <h2 class="section-title section-title--light">A Partnership<br>Rooted in Purpose</h2>
+
+          <p class="about__body animate-up">
+            Amino Loop was founded on a simple premise: that nothing is truly waste when viewed through the right lens. Born from a partnership with Aqua Crossings — Tucson's premier aquamation provider — Amino Loop captures the nutrient-rich effluent from the water cremation process and transforms it into an agricultural asset.
+          </p>
+          <p class="about__body animate-up">
+            Our founding team brings together expertise in sustainable agriculture, biochemistry, and small-batch production. We believe the future of fertilizer is not mined from rock phosphate or synthesized from fossil fuels — it is regenerated from the organic matter already cycling through our world.
+          </p>
+          <p class="about__body animate-up">
+            Based in Tucson, Arizona, we are proud to be a desert-born company focused on the sustainable stewardship of land and legacy. The Southwest's agricultural community deserves inputs that reflect the values of the land itself — resilient, efficient, and naturally derived.
+          </p>
+          <a href="#contact" class="btn btn--sand" style="margin-top: 12px; display: inline-flex;">Connect With Our Team</a>
+        </div>
+
+        <div class="about__visual">
+          <div class="about__visual-box">
+            <div class="about__visual-grid">
+              <div class="about__stat">
+                <span class="about__stat-num">2024</span>
+                <span class="about__stat-label">Year Founded</span>
+              </div>
+              <div class="about__stat">
+                <span class="about__stat-num">Tucson</span>
+                <span class="about__stat-label">Headquarters</span>
+              </div>
+              <div class="about__stat">
+                <span class="about__stat-num">AQ+AL</span>
+                <span class="about__stat-label">Joint Partnership</span>
+              </div>
+              <div class="about__stat">
+                <span class="about__stat-num">SW USA</span>
+                <span class="about__stat-label">Target Market</span>
+              </div>
+            </div>
+            <div class="about__visual-footer">
+              <p class="about__visual-footer-label">In partnership with</p>
+              <p class="about__visual-footer-name">Aqua Crossings</p>
+              <p class="about__visual-footer-loc">Tucson, Arizona</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT
+  ============================================================ -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact__inner">
+
+        <div class="contact__intro">
+          <p class="section-eyebrow">Get in Touch</p>
+          <h2 class="section-title">Let's Start a<br>Conversation</h2>
+          <p class="contact__body">
+            Whether you're an investor interested in the opportunity, a grower looking to secure a fertilizer contract, or a potential agricultural partner — we want to hear from you.
+          </p>
+          <div class="contact__types">
+            <div class="contact__type">
+              <span class="contact__type-label">For Investors</span>
+              <span class="contact__type-desc">Partnership inquiries, pitch deck requests, and investment discussions.</span>
+            </div>
+            <div class="contact__type">
+              <span class="contact__type-label">For Growers</span>
+              <span class="contact__type-desc">Contract fertilizer purchasing, trial programs, and distribution inquiries.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Replace action with Formspree, Netlify Forms, or your backend endpoint -->
+        <form class="contact__form" id="contactForm" novalidate>
+          <div class="form__group">
+            <label for="name" class="form__label">Full Name</label>
+            <input type="text" id="name" name="name" class="form__input" placeholder="Your name" required autocomplete="name">
+          </div>
+          <div class="form__group">
+            <label for="email" class="form__label">Email Address</label>
+            <input type="email" id="email" name="email" class="form__input" placeholder="your@email.com" required autocomplete="email">
+          </div>
+          <div class="form__group">
+            <label for="interest" class="form__label">I am interested as a&hellip;</label>
+            <select id="interest" name="interest" class="form__input form__select" required>
+              <option value="" disabled selected>Select your interest</option>
+              <option value="investor">Investor / Financial Partner</option>
+              <option value="grower">Grower / Fertilizer Contract</option>
+              <option value="distribution">Agricultural Distribution Partner</option>
+              <option value="other">Other / General Inquiry</option>
+            </select>
+          </div>
+          <div class="form__group">
+            <label for="message" class="form__label">Message</label>
+            <textarea id="message" name="message" class="form__input form__textarea" placeholder="Tell us about your interest or ask us a question&#8230;" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+          <p class="form__disclaimer">We typically respond within 2 business days.</p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="footer__logo">amino loop</span>
+          <p class="footer__tagline">Closing the nutrient cycle.<br>Tucson, Arizona.</p>
+        </div>
+        <nav class="footer__links" aria-label="Footer navigation">
+          <a href="#process" class="footer__link">The Process</a>
+          <a href="#about" class="footer__link">About</a>
+          <a href="#contact" class="footer__link">Contact</a>
+        </nav>
+        <div class="footer__partner">
+          <p class="footer__partner-label">A partnership with</p>
+          <p class="footer__partner-name">Aqua Crossings</p>
+          <p class="footer__partner-location">Tucson, AZ</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Amino Loop. All rights reserved.</p>
+        <p class="footer__legal">Placeholder content — not a securities offering.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
