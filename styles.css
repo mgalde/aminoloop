@@ -221,7 +221,9 @@ ul { list-style: none; }
 ========================================================== */
 .hero {
   min-height: calc(100vh - var(--nav-h));
-  background: var(--navy);
+  background:
+    linear-gradient(rgba(11, 26, 43, 0.80), rgba(16, 34, 54, 0.90)),
+    url('images/site/southwest-landscape.jpg') center / cover no-repeat;
   position: relative;
   display: flex;
   align-items: center;
@@ -343,6 +345,74 @@ ul { list-style: none; }
   text-transform: uppercase;
   color: var(--sage);
   margin-bottom: 14px;
+}
+
+/* ==========================================================
+   PHOTO STRIP (homepage)
+========================================================== */
+.photo-strip {
+  background: var(--navy);
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.photo-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.photo-item img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.photo-item:hover img {
+  transform: scale(1.04);
+}
+
+.photo-cap {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 40px 22px 18px;
+  background: linear-gradient(transparent, rgba(11, 26, 43, 0.78));
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  color: rgba(232, 226, 216, 0.88);
+  text-transform: uppercase;
+}
+
+/* ==========================================================
+   SPLIT SECTIONS (process.html -- image + text)
+========================================================== */
+.split-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+}
+
+.split-grid.reverse .split-img {
+  order: -1;
+}
+
+.split-img {
+  overflow: hidden;
+}
+
+.split-img img {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+  display: block;
 }
 
 /* ==========================================================
@@ -585,7 +655,9 @@ ul { list-style: none; }
    PAGE HERO (process.html)
 ========================================================== */
 .page-hero {
-  background: var(--navy);
+  background:
+    linear-gradient(rgba(11, 26, 43, 0.72), rgba(11, 26, 43, 0.86)),
+    url('images/site/liquid-pour.jpg') center / cover no-repeat;
   position: relative;
   overflow: hidden;
 }
@@ -691,7 +763,9 @@ ul { list-style: none; }
    PULL QUOTE BAND (process.html)
 ========================================================== */
 .pullquote-band {
-  background: var(--navy);
+  background:
+    linear-gradient(rgba(11, 26, 43, 0.76), rgba(11, 26, 43, 0.88)),
+    url('images/site/plant-roots.jpg') center / cover no-repeat;
   padding: 100px 0;
   text-align: center;
 }
@@ -721,6 +795,10 @@ ul { list-style: none; }
 
   .prov-grid    { grid-template-columns: 1fr; gap: 28px; }
   .cards        { grid-template-columns: 1fr; gap: 16px; }
+  .photo-grid   { grid-template-columns: 1fr; }
+  .photo-item img { height: 220px; }
+  .split-grid   { grid-template-columns: 1fr; gap: 32px; }
+  .split-grid.reverse .split-img { order: 0; }
 
   .footer-inner { flex-direction: column; gap: 36px; }
   .footer-nav   { align-items: flex-start; flex-direction: row; gap: 28px; }
