@@ -222,8 +222,8 @@ ul { list-style: none; }
 .hero {
   min-height: calc(100vh - var(--nav-h));
   background:
-    linear-gradient(rgba(11, 26, 43, 0.80), rgba(16, 34, 54, 0.90)),
-    url('images/site/southwest-landscape.jpg') center / cover no-repeat;
+    linear-gradient(rgba(11, 26, 43, 0.82), rgba(16, 34, 54, 0.92)),
+    url('images/site/roots-lab.jpg') center / cover no-repeat;
   position: relative;
   display: flex;
   align-items: center;
@@ -336,6 +336,8 @@ ul { list-style: none; }
   line-height: 1.82;
   color: var(--text-mid);
 }
+
+.s-body-gap { margin-top: 20px; }
 
 /* Eyebrow (process page section labels) */
 .eyebrow {
